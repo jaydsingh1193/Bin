@@ -14,7 +14,7 @@ export default function HowPage() {
   return (
     <>
       <PageHeading
-        eyebrow="Your bin day, upgraded"
+        eyebrow="A fresh start every four weeks"
         title={
           <>
             You leave them out.
@@ -22,7 +22,7 @@ export default function HowPage() {
             <span>We leave them lovely.</span>
           </>
         }
-        description="A proper clean, on your collection day. No waiting in. No scrubbing. No more putting it off."
+        description="A proper clean every four weeks. No waiting in. No scrubbing. No more putting it off."
       />
       <section className="wrap page-content">
         <Steps />
@@ -88,7 +88,7 @@ export default function HowPage() {
           </section>
           <TickList
             items={[
-              "Leave your bins empty after the council collection.",
+              "Leave your bins empty on your agreed cleaning date.",
               "Keep them accessible at the kerb or in your front garden.",
               "Leave included kitchen caddies available, too.",
               "Let us know about access restrictions when booking.",
@@ -96,8 +96,8 @@ export default function HowPage() {
           />
         </section>
         <aside className="plain-note">
-          <strong>Council missed your collection?</strong> Let us know. We’ll
-          return once your bin is empty, at no extra charge.
+          <strong>A separate cleaning schedule.</strong> We visit every four
+          weeks. Your clean is not linked to your council collection day.
         </aside>
       </section>
       <ClosingCTA />

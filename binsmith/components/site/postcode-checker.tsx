@@ -30,7 +30,7 @@ export function PostcodeChecker() {
       kind: area ? "covered" : "outside",
       postcode: formatted,
       message: area
-        ? `Good news — ${area.name} is in our usual coverage. We’ll confirm your street and collection day before you book.`
+        ? `Good news — ${area.name} is in our usual coverage. We’ll confirm your street and cleaning schedule before you book.`
         : "You’re outside our usual routes. Get in touch and we’ll check whether we can reach your street.",
     });
   }
@@ -85,7 +85,7 @@ export function PostcodeChecker() {
           </>
         ) : (
           <p>
-            We confirm street and collection-day availability before you commit.
+            We confirm your street and cleaning schedule before you commit.
           </p>
         )}
       </section>

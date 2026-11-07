@@ -62,7 +62,7 @@ function DetailsStep({
         Change your plan
       </Button>
       <h2 ref={heading} tabIndex={-1} className="step-heading">
-        Let’s make your bin day better.
+        Let’s get your first clean booked.
       </h2>
       <BookingSummary plan={plan} annual={annual} />
       <BookingDetails postcode={postcode} />

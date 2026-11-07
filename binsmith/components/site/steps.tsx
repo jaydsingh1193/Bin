@@ -4,12 +4,12 @@ const steps = [
   {
     icon: CalendarCheck,
     title: "Pick your plan.",
-    text: "Tell us your address and collection day. We’ll text to confirm your first clean.",
+    text: "Tell us your address and choose a plan. We’ll text to confirm your first clean.",
   },
   {
     icon: Trash2,
     title: "Leave your bins out.",
-    text: "We arrive after your council collection. Empty bins, easy access — that’s all we need.",
+    text: "We visit every four weeks, on your agreed cleaning date. Empty bins, easy access — that’s all we need.",
   },
   {
     icon: Sparkles,

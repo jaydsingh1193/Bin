@@ -56,7 +56,7 @@ export const faqs = [
   {
     question: "Do I need to be at home?",
     answer:
-      "No. Leave your empty bins accessible in your front garden or at the kerb on your collection day. We clean in the evening after the council has emptied them and send a before-and-after photo to your phone.",
+      "No. Leave your empty bins accessible in your front garden or at the kerb on your agreed cleaning date. We visit every four weeks and send a before-and-after photo to your phone.",
   },
   {
     question: "How often do you clean my bins?",
@@ -74,9 +74,9 @@ export const faqs = [
       "Monthly plans can be cancelled any time. Contact us and choose ‘Existing booking or cancellation’; we’ll confirm your cancellation and any pending payment. For annual plans, we explain cancellation and refund terms before you pay.",
   },
   {
-    question: "What if the council misses my collection?",
+    question: "Is cleaning linked to my council collection day?",
     answer:
-      "Just let us know. We’ll arrange to return once your bins have been emptied, at no extra charge.",
+      "No. Your regular clean runs every four weeks on a separate schedule. We confirm your first cleaning date before the service starts.",
   },
   {
     question: "What happens to the dirty water?",
@@ -91,12 +91,12 @@ export const faqs = [
   {
     question: "How should I prepare my bins?",
     answer:
-      "Leave your bins empty and accessible after the council collection. Keep kitchen caddies available if they’re included in your plan. Tell us about access restrictions when booking, but please don’t include gate codes or payment details in the form.",
+      "Leave your bins empty and accessible on your agreed cleaning date. Keep kitchen caddies available if they’re included in your plan. Tell us about access restrictions when booking, but please don’t include gate codes or payment details in the form.",
   },
   {
     question: "What if you don’t cover my postcode?",
     answer:
-      "Get in touch with your postcode. We’ll check whether your street can be included on a route before you book. Even within our usual coverage, we confirm your street and collection-day availability first.",
+      "Get in touch with your postcode. We’ll check whether your street can be included on a route before you book. Even within our usual coverage, we confirm your street and cleaning schedule first.",
   },
 ] as const;
 

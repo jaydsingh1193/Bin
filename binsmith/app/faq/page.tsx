@@ -21,7 +21,7 @@ export default function FAQPage() {
         <aside className="faq-contact">
           <h2>Still wondering about something?</h2>
           <p>
-            We’re happy to help, whether it’s access, your collection day or
+            We’re happy to help, whether it’s access, your cleaning schedule or
             which plan to choose.
           </p>
           <Action href="/contact" variant="outline">

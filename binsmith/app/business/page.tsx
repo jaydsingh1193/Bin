@@ -66,14 +66,14 @@ export default function BusinessPage() {
               Right to the back door.
             </h2>
             <p>
-              Weekly or fortnightly trade-bin washes that help keep smells and
+              Regular trade-bin washes that help keep smells and
               pests away from your premises.
             </p>
             <TickList
               items={[
                 "240-litre bins from £15 per clean",
                 "1,100-litre bins from £37 per clean",
-                "Weekly or fortnightly cleaning",
+                "An agreed cleaning schedule",
               ]}
             />
             <Action
@@ -89,7 +89,7 @@ export default function BusinessPage() {
             {
               Icon: CalendarCheck,
               title: "A schedule that fits",
-              text: "Agree a regular cleaning routine around your collection days.",
+              text: "Agree a regular cleaning routine that suits your premises.",
             },
             {
               Icon: Droplets,

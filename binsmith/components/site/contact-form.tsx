@@ -109,7 +109,7 @@ function MessageField({
         }
         placeholder={
           business
-            ? "Number and size of bins, collection schedule, and anything else we should know…"
+            ? "Number and size of bins, access arrangements, and anything else we should know…"
             : "How can we help?"
         }
       />

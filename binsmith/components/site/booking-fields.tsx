@@ -2,14 +2,6 @@
 import { Textarea } from "@/components/ui/textarea";
 import { Consent, TextField, SelectField, PostcodeField } from "./form-fields";
 
-const collectionDays = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Not sure",
-];
 const binChoices = [
   "1 wheelie bin",
   "2 wheelie bins",
@@ -59,14 +51,6 @@ export function BookingDetails({ postcode }: { postcode: string }) {
         full
       />
       <PostcodeField initial={postcode} />
-      <SelectField
-        label="Bin collection day"
-        name="collection-day"
-        options={collectionDays}
-        placeholder="Choose a day"
-        required
-        defaultValue=""
-      />
       <SelectField
         label="What bins do you have?"
         name="bins"

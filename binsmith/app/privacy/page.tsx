@@ -23,7 +23,7 @@ export default function PrivacyPage() {
         <h2>What we collect and why</h2>
         <p>
           For booking requests we collect your name, phone number, email,
-          address, postcode, collection day and notes about where your bins are.
+          address, postcode and notes about where your bins are.
           We use these to arrange and carry out your cleans, take payment, send
           before-and-after photos, and reply to your questions. Our lawful basis
           for bookings is to take steps towards, and carry out, a contract with
